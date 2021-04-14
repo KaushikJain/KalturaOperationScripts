@@ -1,0 +1,571 @@
+{
+    "executionTime": 0.096546,
+    "result": {
+        "objectType": "KalturaMediaAsset",
+        "createDate": 1616057525,
+        "description": "This animation series centres on a robotic cat from the future, Doraemon. With its various magical gadgets, Doraemon helps its master solve all kinds of problems. 在这系列卡通动画里，小朋友们将看到哆啦A梦 - 这只来自未来世界的机器猫，如何应用它的法宝，协助其主人大雄解决生活上的各种难题。",
+        "endDate": 1618329540,
+        "externalId": "NMCPKCUPQ202103171905V2",
+        "id": 341341,
+        "images": [],
+        "mediaFiles": [
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "476",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818929,
+                "type": "SS_Web",
+                "url": "https://cdnapisec.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/https/entryId/1_y2juqzfr/format/sl/tags/web_hd/f/a.ism"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "477",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818930,
+                "type": "SS_TV",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/sl/tags/sstv_hd/f/a.ism"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "474",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_kver2m01,1_y2juqzfr_1_iorv5y6o,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818931,
+                "type": "DASH_Mobile",
+                "url": "https://cdnapisec.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/https/entryId/1_y2juqzfr/format/mpegdash/tags/mobile_hd/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "476",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818932,
+                "type": "DASH_Web",
+                "url": "https://cdnapisec.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/https/entryId/1_y2juqzfr/format/mpegdash/tags/web_hd/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "477",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818933,
+                "type": "DASH_TV",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/mpegdash/tags/dashtv_hd/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "474",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_kver2m01,1_y2juqzfr_1_iorv5y6o,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818934,
+                "type": "HLS_Mobile",
+                "url": "https://cdnapisec.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/https/entryId/1_y2juqzfr/format/applehttp/tags/mobile_hd/f/a.m3u8"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "476",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818935,
+                "type": "HLS_Web",
+                "url": "https://cdnapisec.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/https/entryId/1_y2juqzfr/format/applehttp/tags/web_hd/f/a.m3u8"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "477",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818936,
+                "type": "HLS_TV",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/applehttp/tags/hlstv_hd/f/a.m3u8"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "472",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_9vd4576l",
+                "fileSize": 0,
+                "id": 818937,
+                "type": "WVC_High",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/url/tags/wvc_h/f/a.wvm"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "475",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_kver2m01,1_y2juqzfr_1_iorv5y6o,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818938,
+                "type": "HLS_Tablet",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/applehttp/tags/tablet_hd/f/a.m3u8"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "475",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2lpcjfo3,1_y2juqzfr_1_kver2m01,1_y2juqzfr_1_iorv5y6o,1_y2juqzfr_1_hn13co76,1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818939,
+                "type": "DASH_Tablet",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/mpegdash/tags/tablet_hd/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "428",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818940,
+                "type": "DASH_HBBTV",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/mpegdash/tags/hbbtv_hd/deliveryProfileId/11902/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "428",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_wn8lvbxz",
+                "fileSize": 0,
+                "id": 818941,
+                "type": "DASH_HBBTV_720P",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/mpegdash/deliveryProfileId/11902/tags/hbbtv720_hd/f/a.mpd"
+            },
+            {
+                "objectType": "KalturaMediaFile",
+                "altCdnCode": "",
+                "assetId": 341341,
+                "catalogEndDate": 4070908800,
+                "cdnCode": "472",
+                "duration": 1488,
+                "externalId": "1_y2juqzfr_1_2fogxmv6",
+                "fileSize": 0,
+                "id": 818942,
+                "type": "DASH_TV_4K",
+                "url": "http://cdnapi.kaltura.com/p/2082301/sp/208230100/playManifest/protocol/http/entryId/1_y2juqzfr/format/mpegdash/tags/dashtv_hd/f/a.mpd"
+            }
+        ],
+        "metas": {
+            "Short summary": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "This animation series centres on a robotic cat from the future, Doraemon. With its various magical gadgets, Doraemon helps its master solve all kinds of problems. 在这系列卡通动画里，小朋友们将看到哆啦A梦 - 这只来自未来世界的机器猫，如何应用它的法宝，协助其主人大雄解决生活上的各种难题。"
+            },
+            "Short title": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "New Doraemon 哆啦A梦 STG KJ TEST V2"
+            },
+            "Episode name": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Ad Break": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "381.76;744.52;"
+            },
+            "Billing ID": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "99990"
+            },
+            "Licensing window start": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "14/03/2021 02:00:00"
+            },
+            "Licensing window end": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "13/04/2021 15:59:00"
+            },
+            "Short Pinyin title": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Long Pinyin title": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Hashtag": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Intro Cue": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "TX Date": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "14/03/2021 01:30"
+            },
+            "Product Code": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "DTW Product": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "DTW Billing Code": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Credit Cue": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "AudioTracks": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "Chinese"
+            },
+            "tags": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": ""
+            },
+            "Media Sub Type": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "Standard"
+            },
+            "EPG Program CRID": {
+                "objectType": "KalturaMultilingualStringValue",
+                "value": "0CH80CH8A0205285802620A0000000000Q202103171905V20000000000000000000000000000000000000000000000000000000000000"
+            },
+            "Release year": {
+                "objectType": "KalturaDoubleValue",
+                "value": 2019
+            },
+            "Episode number": {
+                "objectType": "KalturaDoubleValue",
+                "value": 262
+            },
+            "Season Number": {
+                "objectType": "KalturaDoubleValue",
+                "value": 1
+            },
+            "Test Content": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "Airplay": {
+                "objectType": "KalturaBooleanValue",
+                "value": true
+            },
+            "Closed captions available": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "Interactive": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "Anonymous_access_block": {
+                "objectType": "KalturaBooleanValue",
+                "value": true
+            },
+            "Embedding": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "Encryption": {
+                "objectType": "KalturaBooleanValue",
+                "value": true
+            },
+            "Hide Episode Number": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "VPN Proxy": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "Clock Setting": {
+                "objectType": "KalturaBooleanValue",
+                "value": false
+            },
+            "ExportStartDate": {
+                "objectType": "KalturaLongValue",
+                "value": 1615687200
+            }
+        },
+        "name": "New Doraemon 哆啦A梦 STG KJ TEST V2",
+        "startDate": 1615687200,
+        "tags": {
+            "Genre": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Children and Family"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Older Kids (7-12)"
+                    }
+                ]
+            },
+            "Category": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Kids/Eps"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "SVSeries02"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Queue/Chunked"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "On Demand/MediaCorp"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "On Demand/Catchup TV"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Native/Chinese"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Queue/P1"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Rights/ACQUIRED"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Catchup TV/Ch8"
+                    }
+                ]
+            },
+            "Rating": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "G"
+                    }
+                ]
+            },
+            "Series name": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "New Doraemon 哆啦A梦 STG KJ TEST V2"
+                    }
+                ]
+            },
+            "Audio language": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Chinese"
+                    }
+                ]
+            },
+            "Provider": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "MediaCorp"
+                    }
+                ]
+            },
+            "Provider ID": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "mediacorp.sg"
+                    }
+                ]
+            },
+            "Product": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "PREV"
+                    }
+                ]
+            },
+            "Territory": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Singapore"
+                    }
+                ]
+            },
+            "Ad tag 1": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Ad/KidZone"
+                    }
+                ]
+            },
+            "Ad tag 2": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "NewDoraemon"
+                    }
+                ]
+            },
+            "External ID": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "NMCPKCUPQ202103171905V2"
+                    }
+                ]
+            },
+            "License window end": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "26/03/2022 15:59:00"
+                    }
+                ]
+            },
+            "Display Season": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "true"
+                    }
+                ]
+            },
+            "DTW": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "false"
+                    }
+                ]
+            },
+            "Watermark": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "false"
+                    }
+                ]
+            },
+            "Parent Ref ID": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "SAMCPK0160214001100372"
+                    }
+                ]
+            },
+            "Provider External ID": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Q202103171905V2"
+                    }
+                ]
+            },
+            "TaxonomyTier1": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Children"
+                    }
+                ]
+            },
+            "TaxonomyTier2": {
+                "objectType": "KalturaMultilingualStringValueArray",
+                "objects": [
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Boys"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "Cartoons"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "GIRLS"
+                    },
+                    {
+                        "objectType": "KalturaMultilingualStringValue",
+                        "value": "KIDS (7-12)"
+                    }
+                ]
+            }
+        },
+        "type": 340,
+        "updateDate": 1618319988,
+        "entryId": "1_y2juqzfr",
+        "status": true,
+        "typeDescription": "Episode"
+    }
+}
