@@ -1,6 +1,6 @@
 <?php
 
-//USAGE php DeleteAssets.php 1982541 a16d34b92e6764a4baf71244d1333996 /Users/kaushik.jain/Downloads/entryId
+//USAGE php DeleteAssets.php partnerId secret /Users/kaushik.jain/Downloads/entryId
 //Last Param is file location
 
 
