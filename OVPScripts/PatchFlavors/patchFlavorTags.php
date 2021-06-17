@@ -1,5 +1,5 @@
 <?php
-//USAGE php patchFlavorTags.php 2082301 12fbaaab0f601f19a796770946797c41 entryId
+//USAGE php patchFlavorTags.php 2082301 12fbaaab0f601f19a796770946797c41 entryId flavorTagsFile(In THis file there will be multiple lines and in each line data format will be flavorId;newTags)
 
 
 ini_set('display_errors', 'On');
@@ -20,7 +20,7 @@ $fout = fopen('DeleteAssets.log', 'a');
 $partnerId = $argv[1]; //
 $adminSecret = $argv[2];
 $mediaEntryIdList = $argv[3]; //'$SeriesEntryListFN';
-$flavorTags = $argv[4];
+$flavorTags = $argv[4]; //flavorTags
 
 $config = new KalturaConfiguration($partnerId);
 $config->serviceUrl = 'http://www.kaltura.com/';

@@ -1,3 +1,9 @@
-978471;mobile,iphone,iphonenew,web,mobile_sd,tablet_sd,thumbsource
-978521;web,mbr,dash,tablet_hd,web_hd,tv_hd,sstv_hd,dashtv_hd,hlstv_hd,thumbsource,mobile_hd
-978531;web,mbr,dash,web_hd,tv_hd,hlstv_hd,dashtv_hd,thumbsource,tablet_hd
+1039421;web,mbr,dash,tablet_hd,web_hd,tv_hd,sstv_hd,dashtv_hd,hlstv_hd
+1039431;web,mbr,dash,web_hd,tv_hd,hlstv_hd
+1039411;mobile,web,mbr,iphone,iphonenew,mobile_hd,tablet_hd,web_hd,tv_hd,sstv_hd,dashtv_hd,hlstv_hd,hbbtv_hd,thumbsource
+1039481;widevine,wvc_h
+1039461;widevine,wvc_l
+1039401;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,web_sd,web_hd,tv_sd,tv_hd,sstv_sd,dashtv_sd,hlstv_sd,hbbtv_sd,thumbsource
+1039371;mobile,web,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd
+1039391;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,web_sd,tablet_sd,tablet_hd,web_hd,tv_sd
+1039381;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,tv_sd

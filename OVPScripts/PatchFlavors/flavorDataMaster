@@ -1,0 +1,14 @@
+1039251;mobile,web,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,web_sd
+1039261;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,web_sd,web_hd,tv_sd
+1039271;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,web_sd,web_hd,tv_sd
+1039291;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,web_sd,web_hd,tv_sd,tv_hd
+1039341;mobile,web,mbr,iphone,iphonenew,mobile_hd,tablet_hd,web_hd,tv_hd
+1039351;web,mbr,dash,tablet_hd,web_hd,tv_hd
+1039361;web,mbr,dash,web_hd,tv_hd
+1039371;mobile,web,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,mobile,web,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,thumbsource
+1039381;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,tv_sd,thumbsource
+1039391;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,web_sd,tablet_sd,tablet_hd,web_hd,tv_sd,thumbsource
+1039401;mobile,web,mbr,iphone,iphonenew,mobile_sd,mobile_hd,tablet_sd,tablet_hd,web_sd,web_hd,tv_sd,tv_hd,sstv_sd,dashtv_sd,hlstv_sd,hbbtv_sd,thumbsource
+1039411;mobile,web,mbr,iphone,iphonenew,mobile_hd,tablet_hd,web_hd,tv_hd,sstv_hd,dashtv_hd,hlstv_hd,hbbtv_hd,thumbsource
+1039421;web,mbr,dash,tablet_hd,web_hd,tv_hd,sstv_hd,dashtv_hd,hlstv_hd,thumbsource
+1039431;web,mbr,dash,web_hd,tv_hd,hlstv_hd,dashtv_hd,thumbsource
