@@ -1,6 +1,6 @@
 <?php
 
-//php getAllAssetsOVP.php 2082311 a43a2bdb96b3257448edfa0014af2457 1581724800 1598918400 batch6.csv
+//php getAllAssetsOVP.php partnerId Secret 1581724800 1598918400 batch6.csv
 //$argv[1]=partnerId
 //$argv[2]=adminSecret
 //$argv[3]=createdAtGreaterThanOrEqual - criteria to restrict the results to 10000

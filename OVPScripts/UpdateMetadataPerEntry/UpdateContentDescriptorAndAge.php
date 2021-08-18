@@ -1,5 +1,5 @@
 <?php
-//php UpdateContentDescriptorAndAge.php 1982541 a16d34b92e6764a4baf71244d1333996 entryData
+//php UpdateContentDescriptorAndAge.php partnerId secret entryData
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 require_once ('php5/KalturaClient.php');
