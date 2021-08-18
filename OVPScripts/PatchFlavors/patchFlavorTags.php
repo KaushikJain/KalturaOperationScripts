@@ -1,5 +1,5 @@
 <?php
-//USAGE php patchFlavorTags.php 2082301 12fbaaab0f601f19a796770946797c41 entryId flavorTagsFile(In THis file there will be multiple lines and in each line data format will be flavorId;newTags)
+//USAGE php patchFlavorTags.php partnerId secret entryId flavorTagsFile(In THis file there will be multiple lines and in each line data format will be flavorId;newTags)
 
 
 ini_set('display_errors', 'On');
