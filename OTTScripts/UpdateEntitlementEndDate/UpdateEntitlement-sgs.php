@@ -1,6 +1,6 @@
 <?php
 
-//Usage php UpdateEntitlement.php adminKs path/to/dataFile
+//Usage php UpdateEntitlement-sgs.php adminKs path/to/dataFile
 //In Data file each entitlement update should be in the new line and each field should be seperated by a comma
 // Format for each line is userID,subsID,epochEndTime,purchaseID
 

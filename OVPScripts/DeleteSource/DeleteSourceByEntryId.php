@@ -1,5 +1,5 @@
 <?php
-//USAGE php DeleteSourceByEntryId.php partnerId secret entryId 
+//USAGE php DeleteSourceByEntryId.php partnerId secret entryId
 
 
 ini_set('display_errors', 'On');
@@ -20,7 +20,6 @@ $fout = fopen('DeleteAssets.log', 'a');
 $partnerId = $argv[1]; //
 $adminSecret = $argv[2];
 $mediaEntryIdList = $argv[3]; //'$SeriesEntryListFN';
-
 $config = new KalturaConfiguration($partnerId);
 $config->serviceUrl = 'http://www.kaltura.com/';
 $client = new KalturaClient($config);
@@ -46,70 +45,68 @@ if (file_exists($mediaEntryIdList))
     echo ($line);
     fwrite($fout, $line);
 
-        
+    foreach ($srcEntryRows as $row)
+    {
+        $line = "\n Getting flavorAssets for $row";
+        echo ($line);
+        fwrite($fout, $line);
 
+        $filter = new KalturaAssetFilter();
+        $filter->entryIdEqual = $row;
+        $filter->tagsLike = 'source';
+        $pager = new KalturaFilterPager();
 
-        foreach ($srcEntryRows as $row)
+        try
         {
-            $line = "\n Getting flavorAssets for $row";
-            echo ($line);
-            fwrite($fout, $line);
+            $result = $client
+                ->flavorAsset
+                ->listAction($filter, $pager);
 
-            $filter = new KalturaAssetFilter();
-            $filter->entryIdEqual = $row;
-            $filter->tagsLike = 'source';
-            $pager = new KalturaFilterPager();
+            $foo = false;
 
-            try
+            for ($i = 0;$i <= (sizeof($result->objects) - 1);$i++)
             {
-                $result = $client
-                    ->flavorAsset
-                    ->listAction($filter, $pager);
-                    
-                    $foo = FALSE;
 
-
-
-                    for ($i = 0;$i <= (sizeof($result->objects) - 1);$i++)
-                    {
-
-                        if ($result->objects[$i]->flavorParamsId == 0) //addtional check to ensure that we are deleting only source param
-                        {
-                            $foo=TRUE;
-                            $flavorAssetId= $result->objects[$i]->id;
-                            $flavorAssetTags= $result->objects[$i]->tags;
-
-                            $faDeleteResult = $client->flavorasset->delete($flavorAssetId);
-                            
-                            $line = "\n Deleted $flavorAssetId with $flavorAssetTags for $row";
-                            echo ($line);
-                            fwrite($fout, $line);
-                        }
-
-                    }
+                if ($result->objects[$i]->flavorParamsId == 0) //addtional check to ensure that we are deleting only source param
                 
-
-                if ($foo== FALSE)
                 {
-                    $line = "\n Source Flavor not found for $row";
+
+                    $foo = true;
+                    $flavorAssetId = $result->objects[$i]->id;
+                    $flavorAssetTags = $result->objects[$i]->tags;
+
+                    $faDeleteResult = $client
+                        ->flavorAsset
+                        ->delete($flavorAssetId);
+
+                    $line = "\n Deleted $flavorAssetId with $flavorAssetTags for $row";
                     echo ($line);
                     fwrite($fout, $line);
                 }
 
             }
-            catch(Exception $e)
+
+            if ($foo == false)
             {
-                echo $e->getMessage();
+                $line = "\n Source Flavor not found for $row";
+                echo ($line);
+                fwrite($fout, $line);
             }
 
-            $line = "\n Finished Operating  $row ";
-            echo ($line);
-            fwrite($fout, $line);
-
         }
-        $line = "\nFinished Deleting";
+        catch(Exception $e)
+        {
+            echo $e->getMessage();
+        }
+
+        $line = "\n Finished Operating  $row ";
         echo ($line);
         fwrite($fout, $line);
+
+    }
+    $line = "\nFinished Deleting";
+    echo ($line);
+    fwrite($fout, $line);
 
 }
 else
