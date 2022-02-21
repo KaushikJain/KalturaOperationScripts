@@ -34,9 +34,6 @@ if (file_exists($dataList))
     {
         $arrfields = explode(',', $row);
 
-        $row = $arrfields[0];
-        $concurrencyGroup = $arrfields[1];
-
         $userID = $arrfields[0];
         $subsID = $arrfields[1];
         $epochEndTime = $arrfields[2];
@@ -45,7 +42,7 @@ if (file_exists($dataList))
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://rest-sgs1.ott.kaltura.com/api_v3/service/entitlement/action/update',
+            CURLOPT_URL => 'https://rest-as.ott.kaltura.com/api_v3/service/entitlement/action/update',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -75,13 +72,13 @@ if (file_exists($dataList))
 
         if ($err)
         {
-            $line = "cURL Error while executing forceCancel #:" . $err;
+            $line = "cURL Error while executing /entitlement/action/update #:" . $err;
             echo ($line);
             fwrite($fout, $line);
         }
         else
         {
-            $line = "Response for Force cancel for $userID == $response";
+            $line = "Response for /entitlement/action/update for $userID == $response";
             echo ($line);
             fwrite($fout, $line);
 
