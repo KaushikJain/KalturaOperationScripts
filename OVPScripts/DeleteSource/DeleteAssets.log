@@ -56,4 +56,9 @@ COUNT = 1
  Getting flavorAssets for 1_lruezuc8
  Deleted 1_oh6hji58 with source for 1_lruezuc8
  Finished Operating  1_lruezuc8 
+Finished DeletingFile exists. Processing now
+COUNT = 1
+ Getting flavorAssets for 1_w4drruwa
+ Source Flavor not found for 1_w4drruwa
+ Finished Operating  1_w4drruwa 
 Finished Deleting
