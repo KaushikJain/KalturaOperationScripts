@@ -86,21 +86,8 @@ if ($dropFolderId!=null) {
 
             $curl = curl_init();
 
-                    curl_setopt_array($curl, array(
-                        CURLOPT_URL => 'https://hooks.slack.com/services/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',
-                        CURLOPT_RETURNTRANSFER => true,
-                        CURLOPT_ENCODING => '',
-                        CURLOPT_MAXREDIRS => 10,
-                        CURLOPT_TIMEOUT => 0,
-                        CURLOPT_FOLLOWLOCATION => true,
-                        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                        CURLOPT_CUSTOMREQUEST => 'POST',
-                        CURLOPT_POSTFIELDS => "{\"text\":\" $dropFolderId not found. Here are the headers $encode \"}",
-                        CURLOPT_HTTPHEADER => array(
-                            'Content-type: application/json'
-                        ) ,
-                    ));
-
+                    //call SLACK 
+            
                     $response = curl_exec($curl);
 
                     curl_close($curl);
